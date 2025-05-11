@@ -1,0 +1,307 @@
+@import "tailwindcss";
+
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #1E1E1E;
+    --accent-color: #4b633b;
+    --accent-gradient: linear-gradient(135deg, #4b633b, #3b4d2e);
+    --accent-hover: #3b4d2e;
+    --glass-bg: rgba(30, 30, 30, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-hover-border: rgba(75, 99, 59, 0.4);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --glass-hover-shadow: 0 8px 32px rgba(75, 99, 59, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--primary-bg);
+    color: white;
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(75, 99, 59, 0.05) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(75, 99, 59, 0.05) 0%, transparent 20%);
+}
+
+.glass-effect {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.glass-effect:hover {
+    border-color: var(--glass-hover-border);
+    box-shadow: var(--glass-hover-shadow);
+    transform: translateY(-5px);
+}
+
+.green-glow {
+    text-shadow: 0 0 8px rgba(75, 99, 59, 0.6);
+}
+
+.green-box-glow {
+    box-shadow: 0 0 15px rgba(75, 99, 59, 0.4);
+}
+
+.accent-gradient-text {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: var(--accent-gradient);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(75, 99, 59, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(75, 99, 59, 0.3);
+}
+
+.btn-secondary {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(75, 99, 59, 0.2);
+}
+
+.page-transition {
+    animation: fadeIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(75, 99, 59, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b633b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3b4d2e;
+}
+
+.progress-bar-animate {
+    animation: progressGrow 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+@keyframes progressGrow {
+    from {
+        width: 0%;
+    }
+}
+
+.pulse-on-hover:hover {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(75, 99, 59, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(75, 99, 59, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(75, 99, 59, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .education-date {
+        font-size: 0.875rem;
+        padding: 0.25rem 0.625rem;
+    }
+
+    h1,
+    .text-4xl {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    h2,
+    .text-3xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    h3,
+    .text-2xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .break-words-mobile {
+        word-break: break-word;
+    }
+}
+
+.overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: #4b633b #1E1E1E;
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+    background: #1E1E1E;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: #4b633b;
+    border-radius: 10px;
+    border: 2px solid #1E1E1E;
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+@keyframes mobileMenuIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes mobileMenuOut {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutToTop {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.animate-slide-in-top {
+    animation: slideInFromTop 0.3s ease-out forwards;
+}
+
+.animate-slide-out-top {
+    animation: slideOutToTop 0.3s ease-in forwards;
+}
+
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+.transition-morphism {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 500ms;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

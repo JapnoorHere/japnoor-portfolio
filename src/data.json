@@ -1,0 +1,244 @@
+{
+    "personal": {
+        "name": "Japnoor Singh",
+        "title": "Software Developer",
+        "intro": "Crafting user-friendly web experiences with clean design and thoughtful code. Always learning, always eager for new challenges.",
+        "bio": "I'm a 20-year-old from Jalandhar, Punjab, India, passionate about tech and innovation. I enjoy building creative projects, exploring new ideas, and growing every day. Curious, driven, and always excited to take on new challenges.",
+        "location": "Jalandhar, Punjab, India",
+        "email": "sjapnoor11@gmail.com",
+        "profile": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/profile%2Fperson.png?alt=media&token=69f2b909-9602-452a-98f7-89246fcdb57f",
+        "aboutProfile": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/profile%2FaboutImage.7a63d31fd29d3b08d118.png?alt=media&token=44eca18e-3288-41a1-8653-d59aef7bb7cf",
+        "cvLinks": {
+            "document": "https://docs.google.com/document/d/1Efnjrjf2RVvn1yS2KmfMjIXLMxGvDDR-bVbesMGIzD0/edit?usp=drive_link",
+            "video": "https://drive.google.com/file/d/1F3q_Y2zd-ZpLpf_bQmnM0bBukoOvgqcH/view?usp=drive_link"
+        },
+        "social": {
+            "github": "https://github.com/JapnoorHere",
+            "linkedin": "https://www.linkedin.com/in/japnoor-singh/",
+            "twitter": "https://twitter.com/japnoor_here",
+            "instagram": "https://www.instagram.com/japnoor.here/"
+        }
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "institution": "Lovely Professional University",
+            "period": "2023-2026"
+        },
+        {
+            "degree": "Diploma in Computer Science and Engineering",
+            "institution": "Mehr Chand Polytechnic College",
+            "period": "2020-2023"
+        },
+        {
+            "degree": "10th Grade",
+            "institution": "Seth Hukam Chand Public School",
+            "period": "2020"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "icon": "SiHtml5",
+            "color": "#E34F26",
+            "level": 95
+        },
+        {
+            "name": "CSS",
+            "icon": "SiCss3",
+            "color": "#1572B6",
+            "level": 90
+        },
+        {
+            "name": "JavaScript",
+            "icon": "SiJavascript",
+            "color": "#F7DF1E",
+            "level": 90
+        },
+        {
+            "name": "Android Kotlin",
+            "icon": "SiAndroid",
+            "color": "#6ecb26",
+            "level": 85
+        },
+        {
+            "name": "React",
+            "icon": "SiReact",
+            "color": "#61DAFB",
+            "level": 90
+        },
+        {
+            "name": "Firebase",
+            "icon": "SiFirebase",
+            "color": "#dd2c00",
+            "level": 85
+        },
+        {
+            "name": "Node.js",
+            "icon": "SiNodedotjs",
+            "color": "#339933",
+            "level": 80
+        },
+        {
+            "name": "Tailwind CSS",
+            "icon": "SiTailwindcss",
+            "color": "#06B6D4",
+            "level": 90
+        },
+        {
+            "name": "Figma",
+            "icon": "SiFigma",
+            "color": "#F24E1E",
+            "level": 75
+        },
+        {
+            "name": "Git",
+            "icon": "SiGit",
+            "color": "#F05032",
+            "level": 85
+        }
+    ],
+    "projects": {
+        "web": [
+            {
+                "title": "Flavor Forge AI",
+                "description": "A MERN stack-based recipe app that generates recipes and images using AI.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2F409832591-d21454e5-5325-467c-a685-daa4bf09f850.png?alt=media&token=d9ab927a-a3dd-4f66-9c6c-1eba609d700b",
+                "demo": "https://github.com/JapnoorHere/ai-recipe-web-app",
+                "github": "https://github.com/JapnoorHere/ai-recipe-web-app"
+            }, {
+                "title": "Weather App",
+                "description": "A weather app built with React that displays the five most recent searches.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2FScreenshot%202025-05-11%20144730.png?alt=media&token=410f92b9-258e-40a2-894e-54c9913538b1",
+                "github": "https://github.com/JapnoorHere/react-weather-app",
+                "demo": "https://react-weather-app-three-mocha.vercel.app/"
+            },
+            {
+                "title": "Madhav Sewa Society",
+                "description": "A full-stack website built in MERN Stack for NGO.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2Fmss.png?alt=media&token=dabd8353-111b-4afb-930e-23972d2f0e68",
+                "github": "https://github.com/JapnoorHere/MadhavSewaSociety",
+                "demo": "https://madhavsewasociety.onrender.com/"
+            },
+            {
+                "title": "Kick Drugs Quiz",
+                "description": "A responsive website built with React JS, Node.js and MongoDB for quiz",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2Fkick.png?alt=media&token=f0a175b0-aad8-4613-b028-41b0ebb3805a",
+                "github": "https://github.com/JapnoorHere/KickDrugsQuiz",
+                "demo": "https://kickdrugsquiz.netlify.app/"
+            }
+        ],
+        "app": [
+            {
+                "title": "Eagle Eye Vigilance App",
+                "description": "An android app for controlling corruption rate in Punjab.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2FeagleEye.png?alt=media&token=ed449662-54e7-4c65-8e9f-5e28b15e62b2",
+                "github": "https://github.com/JapnoorHere/EagleEyeVigilanceApp"
+            },
+            {
+                "title": "Word Guessing Game",
+                "description": "Very Interactive Word guessing Mobile Game.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2FwordGuessing.png?alt=media&token=4296acff-2660-464f-aa13-c462c11b892c",
+                "github": "https://github.com/JapnoorHere/WordGuessingGame",
+                "demo": "https://youtu.be/k3ILOgSZKxI"
+            },
+            
+            {
+                "title": "Project Hub",
+                "description": "Project Hub is a Kotlin Android app to manage projects, tasks, and team.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2FScreenshot%202025-05-11%20151142.png?alt=media&token=2cf7fd8f-ba63-4f3d-9002-5ad0a53bf9ea",
+                "github": "https://github.com/JapnoorHere/project-hub"
+            },
+            {
+                "title": "AES Encryption Decryption",
+                "description": "Simple app for showing encryption and decryption in Android Kotlin.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2Faes.png?alt=media&token=cada77d6-00d5-4a32-8b39-b25c24168c7e",
+                "github": "https://github.com/JapnoorHere/AESEncryptionDecryption"            
+            }
+        ],
+        "uiux": [
+            {
+                "title": "Nike Shoes",
+                "description": "User Friendly UI/UX design for Nike Shoe Brand",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FNIKE%20AIR%20Shoes%2Fnike%20air.png?alt=media&token=c320eaa4-5515-4679-8717-ad67e608cbb7",
+                "demo": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FNIKE%20AIR%20Shoes%2F2024-02-07%2010-01-52%20(online-video-cutter.com).mp4?alt=media&token=66ffd620-86aa-4dcc-a2ef-f10b7dc86431"
+            },
+            {
+                "title": "JBL Headphones",
+                "description": "User Friendly UI/UX design for JBL product page",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FHEADPHONE%20Page%2FBlue%20headphones.png?alt=media&token=1c88e080-c6e4-47a7-9e2b-f6bcc4af3e84",
+                "demo": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FHEADPHONE%20Page%2F0324.mp4?alt=media&token=42b59717-02de-4b31-8c60-f7b7b38e681d"
+            },
+            {
+                "title": "Srishti Sanwaad App",
+                "description": "User Friendly UI/UX design for Book reading app",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FSrishti%20Sanwaad%20App%2FGroup%205.png?alt=media&token=f2b55835-e524-48e1-93c3-2b1844dcccac",
+                "demo": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FSrishti%20Sanwaad%20App%2F2024-06-27%2017-53-24%20(online-video-cutter.com).mp4?alt=media&token=881ffddf-45cf-4155-a871-4d2ea8b451ad"
+            },
+            {
+                "title": "Lays Home Page",
+                "description": "User Friendly UI/UX design for Lays Chips landing page",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FLays%20Home%20Page%2FBlue.png?alt=media&token=763403b1-077b-451d-9567-605fab42ba54",
+                "demo": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FLays%20Home%20Page%2F2024-06-27%2017-54-35%20(online-video-cutter.com).mp4?alt=media&token=bde80a0e-2efa-4a56-abcb-9883dba74560"
+            },
+            {
+                "title": "Pizza Landing Page",
+                "description": "User Friendly UI/UX design for Pizza Delivery website",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FPIZZA%20Landing%20Page%2FFood01.png?alt=media&token=2dd3db07-2293-4af9-b06c-02dc26bc63b4",
+                "demo": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FPIZZA%20Landing%20Page%2F2024-01-02%2016-36-46.mp4?alt=media&token=4bd43d1d-c979-4af6-adde-8d4b69ddaa94"
+            },
+            {
+                "title": "XBOX Controller",
+                "description": "User Friendly UI/UX design for XBOX product display",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FXBOX%20Controller%2Fcontroller.png?alt=media&token=fd4d7c93-754d-4522-8eb1-85490e51f190",
+                "demo": ""
+            },
+            {
+                "title": "Juice Landing Page",
+                "description": "User Friendly UI/UX design for Juice Product landing",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/UI%20UX%2FJuice%20Landing%20Page%2Fjuice.png?alt=media&token=e21ffd8e-562f-4d4b-82dd-cad451733072",
+                "demo": ""
+            }
+        ]
+    },
+    "certificates": [
+        {
+            "title": "Full-Stack Development Using MERN Stack",
+            "organization": "Cipher Schools",
+            "date": "2024",
+            "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/certificates%2FScreenshot%202025-04-21%20100421.png?alt=media&token=51e89a9f-1f4b-4657-93b7-acbdc78cb9b2"
+        },
+        {
+            "title": "Server side JavaScript with Node.js",
+            "organization": "Coursera",
+            "date": "2024",
+            "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/certificates%2FScreenshot%202025-04-21%20100435.png?alt=media&token=07c36eaf-188d-4e07-834b-78041ccf2897"
+        },
+        {
+            "title": "Android App Development with Kotlin",
+            "organization": "Udemy",
+            "date": "2023",
+            "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/certificates%2FScreenshot%202025-04-21%20100413.png?alt=media&token=aa0e61a7-4aa4-48ae-bc37-addc6718b680"
+        },
+        {
+            "title": "MERN Full Stack Development Course",
+            "organization": "30 Days Coding",
+            "date": "2024",
+            "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/certificates%2FScreenshot%202025-04-21%20100405.png?alt=media&token=943150fd-c9d5-4609-a4ab-42a2c9609841"
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Winner - Punjab Institution Sports Hackathon",
+            "description": "Developed an innovative solution for controlling corruption rate in Punjab.",
+            "image": "https://media.licdn.com/dms/image/v2/D4D22AQFo-uuBNYlFdQ/feedshare-shrink_800/feedshare-shrink_800/0/1689819948158?e=1747872000&v=beta&t=9hsbdHZBlQnw1PlW1rI21fmj9t5-XsqjQbo-PeOWBXU",
+            "date": "May, 2023"
+        },
+        {
+            "title": "First Prize - Master in Android Development",
+            "description": "Received the Best Mobile App award for making Word Guessing game in 2 hours competition.",
+            "image": "https://media.licdn.com/dms/image/v2/D5622AQFYre_qENrmyw/feedshare-shrink_800/feedshare-shrink_800/0/1732119268442?e=1747872000&v=beta&t=CU15KhET9A5B3LO74giniraKs8_SFBTg4stlY5iejwg",
+            "date": "December, 2024"
+        }
+    ]
+}
