@@ -101,11 +101,11 @@
     "projects": {
         "web": [
             {
-                "title": "Flavor Forge AI",
-                "description": "A MERN stack-based recipe app that generates recipes and images using AI.",
-                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/projects%2F409832591-d21454e5-5325-467c-a685-daa4bf09f850.png?alt=media&token=d9ab927a-a3dd-4f66-9c6c-1eba609d700b",
-                "demo": "https://github.com/JapnoorHere/ai-recipe-web-app",
-                "github": "https://github.com/JapnoorHere/ai-recipe-web-app"
+                "title": "WhipUp AI",
+                "description": "A React based recipe app that generates recipes and images using AI.",
+                "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-react-ebfc3.appspot.com/o/web%2FScreenshot%202025-05-29%20105842.png?alt=media&token=2011ad08-6fcb-4990-9aea-9f3ef8e71ec3",
+                "demo": "https://whipup-ai.vercel.app/",
+                "github": "https://github.com/JapnoorHere/whipup-ai"
             }, {
                 "title": "Weather App",
                 "description": "A weather app built with React that displays the five most recent searches.",
